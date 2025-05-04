@@ -123,6 +123,87 @@ button .button-submain {
   font-weight: 600;
 }
 
+.hero {
+    margin-top: 30px;
+    padding-top: 50px;
+    background-image: url('/assets/images/hero-bg.webp');
+    background-size: 100% 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__inner {
+    text-align: center;
+}
+
+.hero__inner img {
+    width: 225px;
+    max-width: 100%;
+}
+
+.hero__inner h3 {
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.3em;
+}
+
+.hero__inner h4 {
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1.3em;
+}
+
+.hero__inner h4  span {
+    color: var(--primary-color);
+}
+
+.hero__inner p {
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--white);
+}
+
+.hero__inner-video-box {
+    margin-top: 0px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.hero__inner-video-header p {
+    background-color: var(--primary-color);
+    margin-bottom: 0;
+    color: var(--white);
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero__inner-video-box iframe {
+    width: 100%;
+    height: 500px;
+    /* max-width: 640px; */
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .hero__inner-video-box iframe {
+        height: 200px;
+    }
+}
+
 .three-arrow__inner {
     display: flex;
     justify-content: center;
@@ -831,5 +912,223 @@ button .button-submain {
 
 .going-viral.new-views .going-viral__second-content p {
     margin-bottom: 20px;
+    color: var(--white);
+}
+
+.customer-satisfaction__inner {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.customer-satisfaction__inner img {
+    width: 390px;
+    max-width: 100%;
+}
+
+.customer-satisfaction__inner h2 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: var(--white);
+}
+
+.customer-satisfaction__inner h2 span {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.customer-satisfaction__inner h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: var(--white);
+    word-wrap: break-word;
+    font-weight: bolder;
+}
+
+.customer-satisfaction__inner h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: var(--silver);
+    word-wrap: break-word;
+    font-style: italic;
+}
+
+.guarantee-satisfaction {
+    margin-top: 60px;
+}
+
+.guarantee-satisfaction__inner {
+    padding: 5px 30px 50px;
+    width: 100%;
+    background-color: var(--silver);
+    box-shadow: none;    
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    min-height: 400px;
+}
+
+.guarantee-satisfaction__inner-heading {
+    margin: -30px 0 30px;
+    padding: 20px 0;
+    background-image: url("/assets/images/guarantee-satisfaction-heading.png");
+    background-size: 100% 100%;
+}
+
+.guarantee-satisfaction__inner h5 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.guarantee-satisfaction__inner p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--near-black);
+    line-height: 1.3em;
+}
+
+.what-the-catch {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.what-the-catch__inner h2 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: var(--white);
+}
+
+.what-the-catch__inner h4 {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: var(--white);
+    font-style: italic;
+}
+
+.never-released {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.never-released__content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: var(--white);
+}
+
+.never-released__img img {
+    width: 455px;
+    max-width: 100%;
+}
+
+.save-me {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.save-me h4 {    
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.save-me h4 strong {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.the-viralish-formula {
+    background-image: url('/assets/images/the-viralish-formula.webp');
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 60px 0 20px;
+}
+
+.the-viralish-formula__heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--black);
+    text-shadow: 0 0 0 transparent;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.the-viralish-formula__heading h2 span {
+    font-style: italic;
+    color: var(--primary-color);
+}
+
+.the-viralish-formula__heading-line {
+    margin: 10px auto;
+    width: 50%;
+    border-top: 2px dotted var(--black);
+}
+
+.the-viralish-formula__content {
+    margin-top: 30px;
+}
+
+.the-viralish-formula__content-wrap h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3em;
+} 
+
+.the-viralish-formula__content-wrap h5 {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: var(--black);
+} 
+
+.the-viralish-formula__content-wrap img{
+    max-width: 100%;
+}
+
+.the-viralish-formula-2 {
+    margin-top: 10px;
+}
+
+.frequently-asked-questions {
+    margin: 0;
+    padding: 60px 0 80px;
+    background-color: var(--near-black);
+}
+
+.frequently-asked-questions__heading {    
+    text-align: center;
+}
+
+.frequently-asked-questions__heading h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.frequently-asked-questions__heading h2 {
+    font-size: 54px;
+    font-weight: 700;
     color: var(--white);
 }
